@@ -23,10 +23,10 @@ public class OverLoadDemo {
 		ob.area(side);
 		System.out.println("enter the length of rectangle: ");
 		float length=sc.nextFloat();
-		ob.area(length);
+		
 		System.out.println("enter the breadth of the rectangle: ");
 		float breadth=sc.nextFloat();
-		ob.area(breadth);
+		ob.area(length,breadth);
 		System.out.println("enter the radius of the square: ");
 		double radius=sc.nextDouble();
 		ob.area(radius);
